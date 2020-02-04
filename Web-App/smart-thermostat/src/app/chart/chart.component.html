@@ -1,0 +1,11 @@
+<div style="display: inline-block;">
+  <div style="padding:10px; float: left;">
+    <button mat-raised-button color="primary" (click)="chartToggle = !chartToggle">{{!chartToggle ? "Start" : "Stop"}}</button>
+  </div>
+  <div style="padding: 10px; float: left;">
+    <button mat-raised-button color="primary" (click)="toggleFan()">Toggle Fan</button>
+  </div>
+</div>
+<div #chart [hidden]="!chart">
+  <canvas id="chart">{{ chart }}</canvas>
+</div>
