@@ -3,6 +3,10 @@ This repository contains the **Microservices-based IoT-backend application** and
 
 **Web App <-via WebSocket-> API Gateway <-via Kafka-> IoT Hub <-via VerneMQ-> Microcontroller**
 
+The Backend folder contains the API Gateway and the IoT Hub as well as an application used for testing the MQTT communication and a docker-compose.yml file for spinning up the necessary infrastructure for a development environment.
+
+The Web-App folder contains the Angular SPA.
+
 If you have any questions about the application, you'd like to know how to run it/interact with it or you wanna see the C code and the microcontroller (ATmega328 + ESP8266) used then feel free to contact me via [mmaresch.com](http://mmaresch.com).
 
 # Dependencies
